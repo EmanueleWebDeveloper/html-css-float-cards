@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#title{
+text-align: center;
+color: #e53170;
+margin-bottom: 20px;
+}
+
+.colonna{
+    float: left;
+    width: calc(100% / 3);
+    background-color:#0F0E17 ;
+}
+
+.colonne{
+    width: 80%;
+    margin: 0 auto;
+}
+section div{
+    border: 1px solid red;
+}
+
+.email{
+    color: #56b8c5;
+}
+.colonna img{
+width: 70px;
+}
+div p{
+    color: white;
+}
+div h2{
+    color: white;
+}
