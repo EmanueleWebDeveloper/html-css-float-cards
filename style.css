@@ -9,14 +9,14 @@ html{
 }
 
 #title{
-text-align: center;
-font-size: 40px;
-color: #e53170;
-margin: 20px 0 20px 0;
+    text-align: center;
+    font-size: 40px;
+    color: #e53170;
+    margin: 20px 0 20px 0;
 }
 
 #testo{
-margin-bottom: 30px;
+    margin-bottom: 30px;
 }
 
 .colonna{
@@ -33,6 +33,8 @@ margin-bottom: 30px;
     display: inline-block;
     margin-left: 5px;
     font-size: 12px;
+    vertical-align: 15px;
+    line-height: 1.8;
 }
 
 .colonne{
@@ -44,7 +46,7 @@ margin-bottom: 30px;
     color: #56b8c5;
 }
 .colonna img{
-width: 33%;
+    width: 33%;
 
 }
 div p{
@@ -55,7 +57,7 @@ div h2{
 }
 
 .clearfix::after{
-content: "" ;
-display: table;
-clear: both;
+    content: "" ;
+    display: table;
+    clear: both;
 }
