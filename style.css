@@ -16,7 +16,9 @@ margin-bottom: 20px;
 
 .colonna{
     float: left;
-    width: calc(100% / 3 );
+    width: calc(100% / 3 - 1);
+    margin-right: 10px; 
+    margin-bottom: 10px;
     background-color:#0F0E17 ;
     box-shadow: 5px 5px 5px #888888
 }
