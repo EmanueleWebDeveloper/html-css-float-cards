@@ -16,8 +16,9 @@ margin-bottom: 20px;
 
 .colonna{
     float: left;
-    width: calc(100% / 3);
+    width: calc(100% / 3 );
     background-color:#0F0E17 ;
+    box-shadow: 5px 5px 5px #888888
 }
 
 .colonne{
@@ -25,7 +26,8 @@ margin-bottom: 20px;
     margin: 0 auto;
 }
 section div{
-    border: 1px solid red;
+    border: 1px solid red
+
 }
 
 .email{
@@ -39,4 +41,10 @@ div p{
 }
 div h2{
     color: white;
+}
+
+.clearfix::after{
+content: ;
+display: table;
+clear: both;
 }
