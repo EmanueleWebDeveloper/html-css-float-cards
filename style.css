@@ -22,7 +22,7 @@ margin-bottom: 30px;
 .colonna{
     float: left;
     display: inline-block;
-    width: calc((100% / 3) -30px);
+    width: calc((100% / 3) - 30px);
     margin-right: 30px; 
     margin-bottom: 30px;
     background-color:#0F0E17 ;
@@ -32,6 +32,7 @@ margin-bottom: 30px;
 .info{
     display: inline-block;
     margin-left: 5px;
+    font-size: 12px;
 }
 
 .colonne{
@@ -43,7 +44,8 @@ margin-bottom: 30px;
     color: #56b8c5;
 }
 .colonna img{
-width: 70px;
+width: 33%;
+
 }
 div p{
     color: white;
@@ -53,7 +55,7 @@ div h2{
 }
 
 .clearfix::after{
-content:"" ;
+content: "" ;
 display: table;
 clear: both;
 }
