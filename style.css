@@ -10,26 +10,33 @@ html{
 
 #title{
 text-align: center;
+font-size: 40px;
 color: #e53170;
-margin-bottom: 20px;
+margin: 20px 0 20px 0;
+}
+
+#testo{
+margin-bottom: 30px;
 }
 
 .colonna{
     float: left;
-    width: calc(100% / 3 - 1);
-    margin-right: 10px; 
-    margin-bottom: 10px;
+    display: inline-block;
+    width: calc((100% / 3) -30px);
+    margin-right: 30px; 
+    margin-bottom: 30px;
     background-color:#0F0E17 ;
-    box-shadow: 5px 5px 5px #888888
+    box-shadow: 0px 0px 5px 3px #888888
+}
+
+.info{
+    display: inline-block;
+   
 }
 
 .colonne{
-    width: 80%;
+    width: 70%;
     margin: 0 auto;
-}
-section div{
-    border: 1px solid red
-
 }
 
 .email{
@@ -46,7 +53,7 @@ div h2{
 }
 
 .clearfix::after{
-content: ;
+content:"" ;
 display: table;
 clear: both;
 }
